@@ -27,8 +27,6 @@
         'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
-        'report/purchase_order_template.xml',
-        'report/purchase_request_template.xml',
         'data/sequences.xml',
     ],
     # only loaded in demonstration mode
