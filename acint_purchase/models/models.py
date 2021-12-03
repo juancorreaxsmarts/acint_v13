@@ -110,7 +110,7 @@ class ImportExpenses(models.Model):
 class PurchaseOrder(models.Model):
     _inherit = 'purchase.order'
 
-    import_factor_id = fields.Many2one('acint.purchase.import.factor', string='Factor de Importacion')
+    import_factor_id = fields.Many2one('acint_purchase.acint_purchase', string='Factor de Importacion')
 
 class PurchaseOrderLine(models.Model):
     _inherit = 'purchase.order.line'
